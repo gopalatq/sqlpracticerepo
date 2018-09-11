@@ -7,6 +7,7 @@ CREATE TABLE [dbo].[Widgets](
 	[Description] [varchar](50) NULL,
 	[SKU] [varchar](20) NULL,
 	[temo] [nvarchar](50) NULL,
+	[temp] [nvarchar](50) NULL,
  CONSTRAINT [PK_Widgets] PRIMARY KEY NONCLUSTERED 
 (
 	[RecordID] ASC
