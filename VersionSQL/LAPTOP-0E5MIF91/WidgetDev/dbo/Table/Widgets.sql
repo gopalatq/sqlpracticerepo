@@ -6,6 +6,7 @@ CREATE TABLE [dbo].[Widgets](
 	[RecordID] [int] IDENTITY(1,1) NOT NULL,
 	[Description] [varchar](50) NULL,
 	[SKU] [varchar](20) NULL,
+	[temo] [nvarchar](50) NULL,
  CONSTRAINT [PK_Widgets] PRIMARY KEY NONCLUSTERED 
 (
 	[RecordID] ASC
